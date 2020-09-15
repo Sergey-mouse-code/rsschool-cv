@@ -15,3 +15,15 @@ Everyday I read habr(https://habr.com/), telegram channnels about web and docume
    3. JS - basic level  
    4. Git - basic level  
    5. English - A2
+
+
+## Code example:
+  ```
+  function greatestCommonDivider(number1, number2) {
+    while (number2 !== 0) {
+        let temp = number2;
+        number2 = number1 % number2;
+        number1 = temp;
+    }
+    return number1;
+  }
