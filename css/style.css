@@ -26,6 +26,7 @@ body {
 
 .header {
     background-color: #BB55CC;
+    padding: 10px;
 }
 
 .wrapper {
@@ -60,4 +61,23 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 22px;
+}
+
+.about-me {
+    padding: 10px;
+}
+
+.about-me-title {
+    text-align: center;
+    font-size: 25px;
+    line-height: 26px;
+}
+
+.about-me-text {
+    padding: 10px 0 15px 0;
+}
+
+.about-me__text {
+    font-size: 16px;
+    line-height: 21px;
 }
