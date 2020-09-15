@@ -42,6 +42,8 @@ body {
 
 .image-picture {
     display: block;
+    min-width: 80px;
+    max-height: 150px;
 }
 
 .header__title {
