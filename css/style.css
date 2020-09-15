@@ -74,7 +74,8 @@ body {
 }
 
 .about-me-title,
-.skills__title {
+.skills__title,
+.code__title {
     text-align: center;
     font-size: 25px;
     line-height: 26px;
@@ -97,5 +98,11 @@ body {
 .skills-data {
     font-size: 20px;
     font-weight: 400;
+    line-height: 22px;
+}
+
+.code__text {
+    padding: 20px;
+    font-size: 18px;
     line-height: 22px;
 }
