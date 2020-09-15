@@ -22,10 +22,10 @@ ul {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #C987AA;
 }
 
 .header {
-    background-color: #7767AA;
     padding: 10px;
 }
 
@@ -68,11 +68,13 @@ body {
     line-height: 22px;
 }
 
-.about-me {
+.about-me,
+.skills {
     padding: 10px;
 }
 
-.about-me-title {
+.about-me-title,
+.skills__title {
     text-align: center;
     font-size: 25px;
     line-height: 26px;
@@ -85,4 +87,15 @@ body {
 .about-me__text {
     font-size: 16px;
     line-height: 21px;
+}
+
+.about-me__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.skills-data {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
 }
