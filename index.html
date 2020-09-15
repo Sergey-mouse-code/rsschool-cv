@@ -53,6 +53,24 @@
     </ol>
 
 </section>
+
+<section class="code">
+    <h2 class="code__title">Code example</h2>
+    <p class="code__text">
+        <code class="code">
+            function greatestCommonDivider(number1, number2) {<br>
+                while (number2 !== 0) {<br>
+                    let temp = number2;<br>
+                    number2 = number1 % number2;<br>
+                    number1 = temp;<br>
+                }<br>
+                return number1;<br>
+              }<br>
+        </code>
+    </p>
+
+</section>
+
 </body>
 
 </html>
