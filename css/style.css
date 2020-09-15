@@ -1,0 +1,127 @@
+:root {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+li,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C987AA;
+}
+
+.header {
+    padding: 10px;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-picture {
+    display: block;
+    min-width: 80px;
+    max-height: 150px;
+}
+
+.header__title {
+    margin-bottom: 33px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 38px;
+}
+
+.personal-contact {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+.header__title span {
+    font-style: italic;
+    color: #DD2000;
+}
+
+.personal-data {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.about-me,
+.skills {
+    padding: 10px;
+}
+
+.about-me-title,
+.skills__title,
+.code__title {
+    text-align: center;
+    font-size: 25px;
+    line-height: 26px;
+}
+
+.about-me-text {
+    padding: 10px 0 15px 0;
+}
+
+.about-me__text {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.about-me__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.skills-data {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.code__text {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 994px;
+    min-height: 420px;
+    background-image: url(../img/node-footer.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+}
