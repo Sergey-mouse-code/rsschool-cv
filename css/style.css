@@ -25,7 +25,7 @@ body {
 }
 
 .header {
-    background-color: #BB55CC;
+    background-color: #7767AA;
     padding: 10px;
 }
 
@@ -49,6 +49,11 @@ body {
     padding-top: 10px;
     text-align: center;
     font-size: 38px;
+}
+
+.personal-contact {
+    text-decoration: none;
+    color: #00ff00;
 }
 
 .header__title span {
